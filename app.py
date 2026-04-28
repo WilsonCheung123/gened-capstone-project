@@ -3,9 +3,12 @@ Counsel from the Dead — Streamlit App (atmospheric redesign)
 Backend logic (matching, retrieval, conversation, session state) unchanged.
 """
 
+import os
+# Must be set before protobuf is imported (chromadb → opentelemetry → protobuf)
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
+
 import html as html_module
 import json
-import os
 import re
 import time
 from pathlib import Path

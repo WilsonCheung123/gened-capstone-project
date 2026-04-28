@@ -7,4 +7,3 @@ requests
 torch
 transformers
 pillow>=11.0.0
-protobuf>=4.25.0
