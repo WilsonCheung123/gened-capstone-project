@@ -1,11 +1,8 @@
-streamlit==1.37.1
-openai==1.76.0
-chromadb==1.5.8
+streamlit
+openai
+chromadb
 sentence-transformers
-python-dotenv==0.21.0
-requests==2.32.3
+python-dotenv
+requests
 torch
 transformers
-huggingface-hub
-tokenizers
-safetensors
